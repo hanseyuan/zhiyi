@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/cart.css"/>
+</head>
+<body>
+<div class="main">
+    <!--1 页面顶部-->
+    <header id="header-top">
+        <a href="index.html">
+            <img src="img/header/logo.png" class="logo">
+        </a>
+        <div class="headerBox">
+            <a href="index.html" class="index">购物车</a>
+        </div>
+    </header>
+    <!--2 购物车-->
+    <div id="shopping-cart">
+        <!--1 标题行-->
+        <div class="imfor-top">
+            <!-- 1 全选 100px -->
+            <div class="tu" style="width:100px">
+                <img src="img/cart/product_normal.png">
+            </div>
+            <!-- 2 商品 370px -->
+            <div style="width:370px">商品</div>
+            <!-- 3 单价(元) 150px -->
+            <div style="width:150px">单价(元)</div>
+            <!-- 4 数量 150px -->
+            <div style="width:150px">数量</div>
+            <!-- 5 金额 150px -->
+            <div style="width:150px">金额</div>
+            <!-- 6 操作 100px -->
+            <div style="width:100px">操作</div>
+        </div>
+        <!--2 购物列表-->
+        <ul>
+            <li>
+                <!-- 1 全选 100px -->
+                <div class="select" style="width:100px">
+                    <img src="img/cart/product_normal.png">
+                </div>
+                <!-- 2 商品 370px -->
+                <div id="pudc_information" style="width:370px">
+                    <img src="img/product/md/1463968649.jpg" alt=""/>
+                    <div>
+                        <a href="product_detail.html">Apple Watch Sport</a>
+                        <p>黑色,38毫米</p>
+                    </div>
+                </div>
+                <!-- 3 单价(元) 150px -->
+                <div  class="price" style="width:150px">
+                    <p>2288.00元</p>
+                </div>
+                <!-- 4 数量 150px -->
+                <div  id="count" style="width:150px">
+                    <div>
+                        <button>-</button><input  type="text" value="1" class="number"  id="buy-num"><button>+</button>
+                    </div>
+                </div>
+                <!-- 5 金额 150px -->
+                <div id="money" style="width:150px">
+                    <p>2288.00元</p>
+                </div>
+                <!-- 6 操作 100px -->
+                <div  id="delete" style="width:100px">
+                    <a href="#">删除</a>
+                </div>
+            </li>
+        </ul>
+        <!--3 结算-->
+        <div id="sum_pay">
+            <!-- 1 全选 100px -->
+            <div class="select" style="width:100px">
+                <img src="img/cart/product_normal.png">全选
+            </div>
+            <!--2 合计-->
+            <div class="sum" style="width:700px">
+                <p>
+                    共 <span> 1 </span> 件商品 , 合计 : <span>2288.00元</span>
+                </p>
+            </div>
+            <!--3付款-->
+            <div class="pay" style="width:150px">
+                <a href="#">去结算</a>
+            </div>
+        </div>
+        <!--4 其他推荐-->
+        <div id="products">
+            <h1>购买该商品的用户还购买了</h1>
+            <ul class="product-tbs">
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463992341.jpg">
+                    </a>
+                    <div><a href="#">公子小白</a></div>
+                    <p>1880.00元</p>
+                </li>
+                <li>
+                    <a href="#" class="product-img">
+                        <img src="img/product/md/1463987967.jpg">
+                    </a>
+                    <div><a href="#">Gear VR</a></div>
+                    <p>1288.00元</p>
+                </li>
+                <li>
+                    <a href="#" class="product-img">
+                        <img src="img/product/md/1463989303.jpg">
+                    </a>
+                    <div><a href="#">Pico Neo</a></div>
+                    <p>3399.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463992341.jpg">
+                    </a>
+                    <div><a href="#">公子小白</a></div>
+                    <p>1880.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463972133.jpg">
+                    </a>
+                    <div><a href="#">儿童手表</a></div>
+                    <p>999.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463970452.jpg">
+                    </a>
+                    <div><a href="#">Apple Watch Sport</a></div>
+                    <p>2288.00元</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--3 页面底部-->
+    <footer id="footer-bottom">
+        <div id="copyright">
+            <p>&copy;2017 致一科技有限公司 版权所有 京ICP证15252652号</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+/****************1 页面顶部*/
+#header-top{
+    background:#fff;
+    width: 1080px;
+    height: 120px;
+    margin: 0 auto 30px;
+}
+#header-top .logo{
+    float:left;
+    margin: 30px 0px;
+}
+#header-top div.headerBox{
+    float:right;
+    margin: 30px 0px;
+}
+#header-top div.headerBox a{
+    display:inline-block;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #62a8ea;
+    text-align: center;
+}
+/*************2 购物车***********/
+/*1 标题*/
+div.imfor-top{
+    margin-top: 20px;
+    background: #ffffff;
+    border-bottom:1px solid #E4EAEC;
+    height: 50px;
+    width: 1080px;
+    display: flex;
+    padding: 20px 20px ;
+    box-sizing: border-box;
+    justify-content: space-between;
+    color: #76838f;
+}
+div.imfor-top>div{
+    height: 30px;
+    line-height: 30px;
+    padding:0 10px ;
+    box-sizing: border-box;
+    text-align: center;
+}
+div.imfor-top>div:nth-child(2){
+    text-align: left;
+}
+div.imfor-top>div:nth-child(1) img{
+    position: relative;
+    bottom: 8px;
+}
+/*2 商品表*/
+#shopping-cart>ul{
+    margin-bottom: 40px;
+    padding-bottom: 20px ;
+    background: #ffffff;
+}
+#shopping-cart>ul>li{
+    height: 120px;
+    width: 1080px;
+    display: flex;
+    padding: 20px 20px ;
+    box-sizing: border-box;
+    justify-content: space-between;
+    color: #76838f;
+}
+#shopping-cart>ul>li:hover{
+    background: #F3F7F9;
+}
+#shopping-cart>ul>li>div{
+    height: 100px;
+    line-height: 80px;
+    padding:10px ;
+    box-sizing: border-box;
+    text-align: center;
+}
+#shopping-cart>ul>li>div:nth-child(1) img{
+    position: relative;
+    bottom: 35px;
+}
+#shopping-cart>ul>li>div:nth-child(2){
+    text-align: left;
+}
+/*2商品信息*/
+#pudc_information{
+    display: flex;
+}
+#pudc_information>img{
+    width: 80px;
+    height: 80px;
+    cursor:pointer;
+}
+#pudc_information>div{
+    width: 290px;
+    height: 80px;
+    padding-left: 10px;
+    line-height:2;
+}
+#pudc_information>div>a{
+    color: #62a8ea;
+    font-weight: bold;
+}
+/*4数量*/
+#count{
+    height: 100px;
+    padding:0;
+    display:flex;
+}
+#count>div{
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+}
+#count button{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #e4eaec;
+    color: #76838f;
+    background: #e4eaec;
+    text-align: center;
+    font-size:16px;
+    line-height: 20px;
+    cursor: pointer;
+    outline:none;
+}
+#count input{
+    height:30px;
+    width:30px;
+    border:none;
+    border-top: 1px solid #e4eaec;
+    border-bottom: 1px solid #e4eaec;
+    background: #fff;
+    text-align: center;
+    line-height:24px;
+    color:#444;
+    cursor:pointer;
+    outline:none;
+    box-sizing:border-box;
+    position: relative;
+    bottom: 1px;
+}
+#money>p{
+    color: #f96868;
+}
+
+/*******************3 结算*/
+#sum_pay{
+    height: 100px;
+    width: 1080px;
+    background: #fff;
+    display: flex;
+    padding: 20px 20px ;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-between;
+    color: #76838f;
+}
+#sum_pay>div.sum{
+    text-align: right;
+}
+
+#sum_pay>div.sum>p>span:last-child{
+    font-size: 24px;
+    color: #f96868;
+}
+
+#sum_pay>div.pay>a{
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    color: #fff;
+    display:block;
+    font-size: 18px;
+    line-height: 1.3333333;
+    background: #f96868;
+}
+/*4其他推荐*/
+#products>h1{
+    font-weight: 300;
+    padding-top: 30px;
+    font-size: 24px;
+    color: #A3AFB7;
+    text-align: center;
+    margin: 40px 0;
+}
+/*2 产品列表 */
+#products>ul.product-tbs{
+    display: flex;
+    flex-wrap:wrap;
+    width: 1080px;
+}
+#products>ul.product-tbs>li{
+    width: 250px;
+    height: 320px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    background: #fff;
+}
+#products>ul.product-tbs>li>a.product-img{
+    display: block;
+    padding-top: 10px;
+}
+#products>ul.product-tbs>li>a>img{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+#products>ul.product-tbs>li a{
+    display: inline-block;
+    color: #2a333c;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#products>ul.product-tbs>li a:hover{
+    color: #4e97d9;
+    text-decoration: underline;
+}
+#products>ul.product-tbs>li p{
+    color: #f96868;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/*************3 页面底部*********/
+#copyright{
+    text-align: center;
+    margin-top: 20px;
+}

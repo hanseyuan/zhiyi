@@ -1,0 +1,148 @@
+/*/标题*/
+#support>h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*副标题*/
+#support>ul.subtitle{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    text-align: center;
+    margin: 10px auto;
+	list-style:none;
+}
+#support>ul.subtitle>li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+#support>ul.subtitle>li>a{
+	font-size:18px;
+	 width: 100px;
+}
+#support>ul.subtitle>li:last-child>a{
+    color: #4e97d9;
+}
+/*内容*/
+#content{
+	width:1080px;
+	display:flex;
+	box-sizing:border-box;
+	padding:30px;
+	justify-content:space-between;
+}
+/*左边*/
+#content>div.left{
+	width:700px;
+	height:390px;
+	background:#fff;
+}
+#content>div.left>ul>li{
+	display:flex;
+	padding:30px;
+	height:50px;
+	border-bottom:1px solid #E4EAEC;
+	background:#fff;
+}
+#content>div.left>ul>li>div{
+	padding-left:20px;
+	width:200px;
+}
+#content>div.left>ul>li>div>a{
+	color: #2a333c;
+    font-size: 16px;
+	line-height:30px;
+}
+
+#content>div.leftul>li>div>p{
+    font-size: 16px;
+	line-height:1.5;
+
+}
+#content>div.left>ul>li>a{
+	display:block;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #62a8ea;
+	position:relative;
+	right:-270px;
+    color: #62a8ea;
+}
+#content>div.left>ul>li>a:hover{
+	background-color: #62a8ea;
+	color:#fff;
+	
+}
+/*右边*/
+#content>div.right{
+    width:260px;
+    height: 390px;
+    box-sizing: border-box;
+    background: #fff;
+    padding:20px;
+}
+#content>div.right>input{
+    border-radius: 20px;
+    height: 30px;
+    width:220px;
+    border: 1px solid #E4EAEC;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: none;
+    margin: 10px 0;
+}
+#content>div.right>input:focus{
+    border-radius: 20px;
+    border: 1px solid #72A6F9;
+}
+#content>div.right>h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+#content>div.right>ul.tuijian{
+	border: 1px solid #E4EAEC;
+	border-Radius:10px;
+}
+#content>div.right>ul>li{
+    box-sizing: border-box;
+    line-height: 30px;
+	border-bottom:1px solid #E4EAEC;
+    width:220px;
+    padding: 5px 20px;
+}
+#content>div.right>ul>li:last-child{
+border-bottom:none;
+}
+#content>div.right>ul.tuijian>li{
+    min-height: 40px;
+}
+#content>div.right>ul>li>a{
+    display: inline-block;
+    line-height: 1.5;
+    color: #2a333c;
+}
+#content>div.right>ul>li>a:hover{
+    color: #4e97d9;
+    text-decoration: underline;
+}
+#content>div.right>ul.qita{
+    margin-top: 30px;
+}
+#content>div.right>ul.qita>li{
+    height:30px;
+    padding:0;
+    border:none;
+}

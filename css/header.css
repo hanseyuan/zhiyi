@@ -1,0 +1,74 @@
+#header-top{
+    background:#fff;
+    width: 1080px;
+	height:73px;
+	display:flex;
+	padding:0 10px;
+	box-sizing:border-box;
+	justify-content:space-between;
+}
+
+div.headerBox{
+	width: 600px;
+	height: 73px;
+    line-height: 73px;
+	display:flex;
+	justify-content:space-between;
+}
+div.headerBox>div>a{
+	display:inline-block;
+    width: 73px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+div.headerBox>div>a:hover{
+    color: #62a8ea
+}
+div.headerBox> div>a.register{
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    background:#46be8a;
+}
+div.headerBox>div>a.register:hover{
+    background:#5CD29D;
+}
+div.headerBox>div>a.loading{
+    color:#62a8ea;
+    font-weight: bold;
+    line-height: 40px;
+    box-sizing: border-box;
+    background:#fff;
+    border: 1px solid #62a8ea;
+}
+div.headerBox>div>a.loading:hover{
+    background:#62a8ea;
+    color:#fff;
+}
+/*产品列表的下拉菜单*/
+	.dropdown{width:70px; height:40px;}
+	.dropdown-menu{
+		width:100px;
+		height:0; 
+		opacity:0; 
+		overflow:hidden;
+		list-style:none; margin-top:20px; padding:0;
+		background:#fff;
+		transition:all .5s linear;
+		}
+	.dropdown-menu>li>a{
+		display:block;
+		width: 70px;
+		height: 40px;
+		line-height: 40px;
+		padding-left:10px;
+	}
+	.dropdown-menu li:hover{
+		background:#F5F5F5;
+	}
+	.dropdown-menu>li>a:hover{
+		background:#F5F5F5;
+		color: #62a8ea;
+	}

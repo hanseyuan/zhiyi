@@ -1,0 +1,116 @@
+/****************1 页面顶部*/
+#header-top{
+    background:#fff;
+    width: 1080px;
+    height: 120px;
+    margin: 0 auto;
+}
+#header-top .logo{
+    float:left;
+    margin: 30px 0px;
+}
+#header-top div.headerBox{
+    float:right;
+    margin: 30px 0px;
+}
+#header-top div.headerBox a{
+    display:inline-block;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #62a8ea;
+    text-align: center;
+}
+/********************2 注册表格*/
+/*1 主体*/
+#register-table{
+    width:500px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding:30px;
+    background: #ffffff;
+}
+#register-table>ul>li{
+    width:440px;
+    height:40px;
+    line-height:40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+#register-table>ul>li>img{
+    width:40px;
+    border: 1px solid #A9A9A9;
+}
+#register-table>ul>li>input{
+    width:400px;
+    height:40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    position: relative;
+    left: -1px;
+}
+#register-table>ul>li>input.code{
+    width:250px;
+}
+/*2 更多资料*/
+#register-table>div.more{
+    width:440px;
+    height:40px;
+    position:absolute;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#register-table>div.more>hr{
+    position:relative;
+    top: 15px;
+}
+#register-table>div.more>span{
+    display: inline-block;
+    width: 100px;
+    background: #ffffff;
+    position:relative;
+    bottom:15px;
+}
+#register-table>ul.more_date{
+    width:440px;
+    height:400px;
+    margin-top: 60px;
+}
+#register-table>ul.more_date>li{
+    display: flex;
+    justify-content: space-between;
+ }
+#register-table>ul.more_date>li>input{
+    width: 350px;
+}
+#register-table>ul.more_date>li.register>input{
+    width: 440px;
+    color: #fff;
+    background-color: #337ab7;
+    border:none;
+    font-size: 18px;
+    margin: 20px 0;
+}
+#register-table>ul.more_date>li.have{
+    text-align: right;
+    width: 440px;
+    box-sizing: border-box;
+    padding-left:360px ;
+}
+#register-table>ul.more_date>li.have>a{
+    margin: 10px 0;
+    color: #62a8ea;
+
+}
+#register-table>ul.more_date>li.have>a:hover {
+    text-decoration: underline;
+    color: #76838f;
+}
+/*******3 页面底部*/
+#copyright{
+    text-align: center;
+    margin-top: 20px;
+}

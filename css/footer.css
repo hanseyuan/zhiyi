@@ -1,0 +1,47 @@
+#footer-bottom{
+    width: 1080px;
+	height:250px;
+	background:#fff;
+}
+#tbs{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 50px;
+}
+#tbs>ul>li{
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#tbs>ul>li:first-child{
+    margin:15px 0px;
+}
+#tbs>ul>li>a.theme{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a333c;
+}
+#tbs>ul>li>a{
+    font-size: 16px;
+    color: #5e7387;
+}
+#tbs>ul:last-child>li{
+    width: 200px;
+    height:40px;
+    line-height: 40px;
+}
+#tbs>ul:last-child>li.telephone{
+    font-size:26px;
+    margin: 15px 0 0 0;
+}
+#tbs>ul:last-child>li.workTime{
+    color:#aaa;
+    height:25px;
+    line-height: 25px;
+}
+#copyright{
+    text-align: center;
+    margin-top: 20px;
+}

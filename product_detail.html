@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>产品详情</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/product_detail.css"/>
+</head>
+<body>
+<div class="main">
+    <!-- 1 页面头部-->
+    <header id="header">
+    </header>
+    <!--2 产品详情-->
+        <!-- 1 路径导航(面包屑导航) #bread-crumb -->
+        <div id="bread-crumb">
+            <a href="#"> 首页 </a>
+            <span> / </span>
+            <a href="#"> 产品 </a>
+            <span> / </span>
+            <a href="#"> 智能手表 </a>
+        </div>
+        <!--2 商品信息-->
+        <div id="msg_product">
+            <!--1 左图-->
+            <div id="preview">
+                <!-- 1 大图 -->
+                <p>
+                    <img src="img/product/md/1463968649.jpg">
+                </p>
+                <!-- 2 小图 -->
+                <ul>
+                    <li>
+                        <img src="img/product/md/1463968683.jpg">
+                    </li>
+                    <li>
+                        <img src="img/product/md/1463968683.jpg">
+                    </li>
+                    <li>
+                        <img src="img/product/md/1463969986.jpg">
+                    </li>
+                    <li>
+                        <img src="img/product/md/1463970070.jpg">
+                    </li>
+                    <li>
+                        <img src="img/product/md/1463970224.jpg">
+                    </li>
+                    <li>
+                        <img src="img/product/md/1463970452.jpg">
+                    </li>
+                </ul>
+            </div>
+            <!--2 商品信息-->
+            <div id="show-details">
+                <h1>Apple Watch Sport</h1>
+                <h1 class="price">2288.00元</h1>
+                <p>选择颜色</p>
+                <ul class="select_color">
+                    <li>黑色</li>
+                    <li>白色</li>
+                    <li>宝蓝色</li>
+                    <li>橙色</li>
+                    <li>黄色</li>
+                </ul>
+                <p>表壳尺寸</p>
+                <ul class="select_size">
+                    <li>38毫米</li>
+                    <li>42毫米</li>
+                </ul>
+                <p>数量</p>
+                <div>
+                    <button class="numberMinus">-</button>
+                    <input type="text" value="1" class="number" id="buy-num">
+                    <button class="numberAdd">+</button>
+                </div>
+                <p>库存 <span> 999 </span>件</p>
+                <div>
+                    <a href="#">立即购买</a>
+                    <a href="cart.html">加入购物车</a>
+                </div>
+            </div>
+        </div>
+    <!--3详情-->
+    <div id="detail">
+        <!--1 左 详细数据-->
+        <div class="detail_left">
+            <!--1 开头-->
+            <div>
+                <a href="#">详情</a>
+                <a href="#"> 功能</a>
+                <a href="#">包装</a>
+            </div>
+            <!--2 信息-->
+            <ul>
+                <li>适用人群：儿童，成年人，老年人</li>
+                <li>商品毛重：255g</li>
+                <li>商品产地：中国大陆</li>
+                <li>兼容性：
+                    【<a href="#">登录</a>】
+                    【<a href="#">注册</a>】
+                </li>
+            </ul>
+            <!--3 图片-->
+            <div>
+                <img src="img/product/detail/1463968457167910.jpg" >
+                <img src="img/product/detail/1463968457105651.jpg">
+            </div>
+        </div>
+        <!--2  右 热门推荐-->
+        <div class="detail_right">
+            <p>为你推荐</p>
+            <ul class="product-tbs">
+                <li>
+                    <a href="#" >
+                        <img src="img/product/md/1463968649.jpg">
+                    </a>
+                    <div><a href="#">Apple Watch Sport</a></div>
+                    <p>2288.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463972218.jpg">
+                    </a>
+                    <div><a href="#">儿童手表</a></div>
+                    <p>999.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463992341.jpg">
+                    </a>
+                    <div><a href="#">公子小白</a></div>
+                    <p>1880.00元</p>
+                </li>
+                <li>
+                    <a href="#" class="product-img">
+                        <img src="img/product/md/1463987967.jpg">
+                    </a>
+                    <div><a href="#">Gear VR</a></div>
+                    <p>1288.00元</p>
+                </li>
+                <li>
+                    <a href="#" class="product-img">
+                        <img src="img/product/md/1463989303.jpg">
+                    </a>
+                    <div><a href="#">Pico Neo</a></div>
+                    <p>3399.00元</p>
+                </li>
+                <li>
+                    <a href="#"  class="product-img">
+                        <img src="img/product/md/1463992341.jpg">
+                    </a>
+                    <div><a href="#">公子小白</a></div>
+                    <p>1880.00元</p>
+                </li>
+             </ul>
+        </div>
+    </div>
+
+    <!-- 3 页面底部-->
+    <footer id="footer">
+    </footer>
+ </div>
+    <script src="js/ajax.js"></script>
+	<script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/product-details.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/*/标题*/
+#about>div:first-child{
+	background:#fff;
+	padding-bottom:10px;
+}
+#about>div>h1.biaoti{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*副标题*/
+#about>div>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+#about>div>ul>li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+#about>div>ul>li>a{
+    font-size:18px;
+}
+#about>div>ul>li:nth-child(3)>a{
+    color: #4e97d9;
+}
+#about>div>ul>li>a:hover{
+    color: #4e97d9;
+}
+/*内容*/
+#part1{
+	width:1080px;
+	background:#fff;
+	padding:30px;
+	box-sizing:border-box;
+	margin:30px 0;
+}
+#part1>h1{
+	font-size:24px;
+}
+#part1>p>span{
+	font-size: 12px;
+    color: #a3afb7;
+}
+#part1>div{
+	padding:30px 0;
+	box-sizing:border-box;
+	border-top:1px solid #E4EAEC;
+	border-bottom:1px solid #E4EAEC;
+}
+#part1>div>ul>li.d1{
+	font-size: 18px;
+	font-weight: bold;
+    line-height: 1.8;
+    color: #222;
+	list-style-type: none;
+	padding-left:0px;
+}
+#part1>div>ul>li{
+	font-size: 18px;
+    line-height: 1.8;
+    color: #2a333c;
+	list-style-type: disc;
+	padding-left:20px;
+	list-style-position:inside;
+}
+#part1>a{
+	display:block;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:18px;
+	border:1px solid #62a8ea;
+	color: #62a8ea;
+	margin:30px 0 0 0;
+}
+#part1>a:hover{
+	background:#62a8ea;
+	color: #fff;
+}

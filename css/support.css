@@ -1,0 +1,71 @@
+/*/标题*/
+#support>h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*副标题*/
+#support>ul.subtitle{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    text-align: center;
+    margin: 10px auto;
+}
+#support>ul.subtitle>li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+#support>ul.subtitle>li>a{
+	font-size:18px;
+	 width: 100px;
+}
+#support>ul.subtitle>li:first-child>a{
+    color: #4e97d9;
+}
+#support>div{
+    width: 1080px;
+    height: 200px;
+    padding: 70px;
+    box-sizing: border-box;
+    border-top: 1px solid #E4EAEC;
+    border-bottom: 1px solid #E4EAEC;
+    margin-bottom: 20px;
+}
+#support p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #222;
+    text-align: center;
+}
+#support>p{
+    text-align: left;
+}
+#support>h3{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #222;
+    display: inline-block;
+    padding: 30px 0 10px;
+}
+#support>ul.notice>li{
+    min-height: 40px;
+    line-height: 40px;
+    box-sizing:border-box;
+    margin-left: 30px;
+    padding: 10px 0;
+    list-style:disc;
+}
+#support>ul.notice>li>p{
+    text-align: left;
+    line-height: 1.2;
+}

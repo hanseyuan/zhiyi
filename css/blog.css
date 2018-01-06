@@ -1,0 +1,160 @@
+/*/标题*/
+#blog_content>h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*2 内容列表*/
+#blog_main{
+    width: 1080px;
+    min-height:500px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+/*1 左*/
+#blog_main>div.left{
+    width:800px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+}
+/*博客列表*/
+#blog_main>div.left>ul.blog-table{
+    display: flex;
+    flex-wrap:wrap;
+    width: 740px;
+}
+#blog_main>div.left>ul.blog-table>li{
+    width:740px;
+    min-height: 160px;
+    box-sizing:border-box;
+    display: flex;
+    padding: 20px 0;
+    margin-bottom:10px;
+}
+#blog_main>div.left>ul.blog-table>li img{
+    width: 160px;
+    height: 120px;
+    margin-right: 20px;
+}
+#blog_main>div.left>ul.blog-table>li>div.article{
+    width:560px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+#blog_main>div.left>ul.blog-table>li>div.article>a{
+    color:#2a333c;
+    font-size: 22px;
+}
+#blog_main>div.left>ul.blog-table>li>div.article>a:hover{
+    color: #4e97d9;
+    text-decoration: underline;
+}
+#blog_main>div.left>ul.blog-table>li>div.article>p{
+    font-size: 14px;
+    color: #76838f;
+    line-height: 1.2;
+}
+#blog_main>div.left>ul.blog-table>li>div.article>p:last-child{
+    line-height: 2;
+    float: left;
+}
+#blog_main>div.left>ul.blog-table>li>div.article>p>span{
+    display: inline-block;
+    width: 70px;
+
+}
+#blog_main>div.left>ul.blog-table>li>div.article>p>span:first-child{
+    width: 120px;
+
+}
+#blog_main>div.left>ul.blog-table>li>div.article>p>span:last-child{
+    width: 100px;
+}
+/*****页码*/
+#page{
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+#page>a{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #E4EAEC;
+}
+#page>a.page_number{
+    width:40px;
+}
+#page>a.page_number:hover{
+    background: #4e97d9;
+    color: #ffffff;
+}
+
+/*2右*/
+#blog_main>div.right{
+    width:260px;
+    height: 540px;
+    box-sizing: border-box;
+    background: #fff;
+    padding:20px;
+}
+#blog_main>div.right>input{
+    border-radius: 20px;
+    height: 30px;
+    width:220px;
+    border: 1px solid #E4EAEC;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: none;
+    margin: 10px 0;
+}
+#blog_main>div.right>input:focus{
+    border-radius: 20px;
+    border: 1px solid #72A6F9;
+}
+#blog_main>div.right>h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+#blog_main>div.right>ul>li{
+    box-sizing: border-box;
+    line-height: 30px;
+    border: 1px solid #E4EAEC;
+    width:220px;
+    padding: 5px 20px;
+}
+#blog_main>div.right>ul.tuijian>li{
+    min-height: 40px;
+}
+#blog_main>div.right>ul>li>a{
+    display: inline-block;
+    line-height: 1.5;
+    color: #2a333c;
+}
+#blog_main>div.right>ul>li>a:hover{
+    color: #4e97d9;
+    text-decoration: underline;
+}
+#blog_main>div.right>ul.qita{
+    margin-top: 30px;
+}
+#blog_main>div.right>ul.qita>li{
+    height:30px;
+    padding:0;
+    border:none;
+}

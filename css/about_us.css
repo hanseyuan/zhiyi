@@ -1,0 +1,57 @@
+/*/标题*/
+#about>div:first-child{
+	background:#fff;
+	padding-bottom:10px;
+}
+#about>div>h1.biaoti{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*副标题*/
+#about ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+#about ul>li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+#about ul>li>a{
+    font-size:18px;
+}
+#about ul>li:nth-child(1)>a{
+    color: #4e97d9;
+}
+#about ul>li>a:hover{
+    color: #4e97d9;
+}
+/*内容*/
+#content{
+	background:#fff;
+	margin:30px 0;
+	padding:20px;
+	box-sizing:border-box;
+	border-top:1px solid #F5F5F5;
+}
+#content>img{
+    width: 1080px;
+    margin: 20px -20px;
+}
+#content>p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #222;
+}

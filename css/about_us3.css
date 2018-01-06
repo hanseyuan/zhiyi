@@ -1,0 +1,86 @@
+/*/标题*/
+#about>div:first-child{
+	background:#fff;
+	padding-bottom:10px;
+}
+#about>div>h1.biaoti{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 1080px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: rgb(98, 168, 234);
+}
+/*副标题*/
+#about>div>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+#about>div>ul>li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+#about>div>ul>li>a{
+    font-size:18px;
+}
+#about>div>ul>li:nth-child(3)>a{
+    color: #4e97d9;
+}
+#about>div>ul>li>a:hover{
+    color: #4e97d9;
+}
+/*内容*/
+#content{
+	width:600px;
+	height:540px;
+	background:#fff;
+	margin:30px auto;
+	display:table;
+	box-sizing:border-box;
+}
+#content>ul{
+	width:700px;
+	flex-direction:column;
+	font-size:16px;
+	padding:20px;
+}
+
+#content>ul>li:nth-child(6){
+	width:520px;
+	height:60px;
+	margin:10px 0px 0;
+}
+#content>ul>li>textarea{
+	width:500px;
+	height:60px;
+	display:inline-block;
+}
+#content>ul>li:nth-child(7)>input{
+	display:inline-block;
+	width:500px;
+	height:25px;
+	margin:30px 5px;
+}
+#content>ul>li:nth-child(8)>input{
+	display:inline-block;
+	width:320px;
+	height:25px;
+	margin:50px 5px;
+}
+#content>ul>li button{
+	display:inline-block;
+	width:500px;;
+	height:40px;
+	margin:70px 5px;
+	background:#62A8EA;
+	border-color:#62A8EA;
+	color:#fff;
+}

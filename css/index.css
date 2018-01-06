@@ -1,0 +1,235 @@
+/*****公共部分  标题<h1> 副标题<h4>*/
+    section h1{
+        display:block;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 300;
+        padding-top: 50px;
+        color: #37474f;
+    }
+    section h4{
+        display:block;
+        font-size: 16px;
+        color: #5e7387;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+/**************2 轮播广告***************/
+#banner img{
+    width: 1080px;
+}
+#banner{
+    width:1080px;
+    height: 514px;
+    overflow:hidden;
+/*相对定位：配合 a.ck-slide做绝对定位*/
+    position:relative;
+}
+#banner ul.banner-img{
+    position:absolute; left:0;
+}
+#banner ul.banner-img>li{float:left;width:1080px;}
+#banner ul.banner-img img{
+    width:1080px;
+    height: 514px;
+}
+/*左右方向按钮的相同的样式*/
+#banner a.ck-slide{
+    /*绝对定位,宽度，高度，倒角，背景颜色，透明度，上偏移距离*/
+    position:absolute;
+    top:220px;
+    width:35px;
+    height:70px;
+    border-radius:3px;
+    background:#000;
+    opacity:0.15;
+    transition:all .3s linear;
+}
+/*：过渡效果*/
+#banner a.ck-slide:hover{
+    opacity:0.3;
+}
+#banner a.ck-left{
+    /*左偏移距离*/
+    left:20px;
+	 background: #000 url(../img/index/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+    /*右偏移距离*/
+	right:20px;
+	background:#000 url(../img/index/arrow-right.png) no-repeat center center;
+}
+/*导航小圆点*/
+#banner ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+}
+#banner ul.indicators li{
+    width:12px;
+    height:12px;
+    background:#202020;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#000;
+}
+
+/***********3 科技改变生活****************/
+#life{
+    background: #fff;
+}
+#life>ul{
+    display:flex;
+    justify-content: space-between;
+}
+#life>ul>li{
+    width: 260px;
+    height: 300px;
+    text-align: center;
+}
+#life>ul>li>h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #2a333c;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#life>ul>li>p{
+    width: 90%;
+    margin: 5px auto;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #5e7387;
+}
+/************4 科技产品******************/
+    /*1 产品目录*/
+    #products>ul.contents{
+        display: flex;
+        justify-content: space-between;
+        width: 630px;
+        margin: 30px auto;
+    }
+    #products>ul.contents>li{
+        width: 100px;
+        height: 40px;
+        background: #fff;
+        line-height: 40px;
+        text-align: center;
+    }
+    #products>ul.contents>li:hover{
+        background: #62a8ea;
+        color: #fff;
+    }
+    #products>ul.contents>li>a{
+        font-size: 16px;
+        font-weight: 100;
+        line-height: inherit;
+        text-shadow: none;
+        color:inherit;
+    }
+    /*2 产品列表 */
+    #products>ul.product-tbs{
+        display: flex;
+        flex-wrap:wrap;
+        width: 1080px;
+    }
+    #products>ul.product-tbs>li{
+        width: 250px;
+        height: 320px;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 10px;
+        background: #fff;
+    }
+    #products>ul.product-tbs>li>a.product-img{
+        display: block;
+        padding-top: 10px;
+    }
+    #products>ul.product-tbs>li>a>img{
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+    #products>ul.product-tbs>li a{
+        display: inline-block;
+        color: #2a333c;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    #products>ul.product-tbs>li a:hover{
+        color: #4e97d9;
+        text-decoration: underline;
+    }
+    #products>ul.product-tbs>li p{
+        color: #f96868;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+/*************5 博客资讯**********************/
+#blog>ul.blog-table{
+    display: flex;
+    flex-wrap:wrap;
+    width: 1080px;
+    background: #fff;
+}
+#blog>ul.blog-table>li{
+    width:540px;
+    height: 120px;
+    box-sizing:border-box;
+    display: flex;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+#blog>ul.blog-table>li img{
+    width: 160px;
+    margin:10px;
+}
+#blog>ul.blog-table>li>div.article{
+    width:360px;
+    height: 120px;
+}
+#blog>ul.blog-table>li>div.article>a{
+    line-height: 2;
+    color:#2a333c;
+}
+#blog>ul.blog-table>li>div.article>a:hover{
+    color: #4e97d9;
+    text-decoration: underline;
+}
+#blog>ul.blog-table>li>div.article>p{
+    font-size: 12px;
+    color: #76838f;
+    line-height: 1.2;
+}
+#blog>ul.blog-table>li>div.article>p:last-child{
+    line-height: 2;
+    float: left;
+}
+#blog>ul.blog-table>li>div.article>p>span{
+    display: inline-block;
+    width: 70px;
+
+}
+#blog>ul.blog-table>li>div.article>p>span:last-child{
+    width: 100px;
+}
+ /*********6 关于我们**********/
+
+#about>img{
+    width: 1080px;
+    margin: 20px 0;
+}
+#about>p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #222;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+</head>
+<body>
+    <div class="main">
+        <header id="header-top">
+		 <!-- 1、左侧 ：LOGO -->
+			<div id="logo" class="lf">
+				<a href="index.html">
+					<img src="img/header/logo.png" class="logo">
+				</a>
+			</div>
+		 <!-- 2、右侧 ：标签-->
+            <div class="headerBox">
+                <div><a href="index.html">首页</a></div>
+				<!-- 产品-下拉列表 -->
+                <div class="dropdown">
+					<a data-trigger="dropdown" href="products.html">产品</a>
+					<ul class="dropdown-menu">
+						<li><a href="products.html">智能手表</a></li>
+						<li><a href="products.html">智能眼镜</a></li>
+						<li><a href="products.html">机器人</a></li>
+						<li><a href="products.html">体感车</a></li>
+						<li><a href="products.html">无人机</a></li>
+					</ul>
+				</div>
+                <div><a href="support.html">支持</a></div>
+                <div><a href="blog.html">博客</a></div>
+                <div><a href="about_us.html">关于</a></div>
+                <div><a href="register.html" class="register">注册</a></div>
+                <div ><a href="loading.html"class="loading">登录</a></div>
+            </div>
+        </header>
+    </div>
+		<script src="js/jquery-1.11.3.js"></script>
+	<script>
+    //再实现鼠标移入下拉
+    //为data-trigger属性为dropdown的父元素绑定鼠标进入事件
+    $("[data-trigger=dropdown]").parent()
+      .mouseover(
+      function(){
+        var $div=$(this);
+                //查找div的直接子元素中最后一个
+        var $menu=$div.children().last();
+        $menu.css({height:200,opacity:1});
+      }
+    ).mouseout(function(){
+    //继续为data-trigger属性为dropdown的父元素绑定鼠标移出事件
+      var $div=$(this);
+      var $menu=$div.children().last();;
+      $menu.css({height:0,opacity:0});
+    });
+	</script>
+</body>
+</html>
